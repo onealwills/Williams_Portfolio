@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Williams Portfolio</title>
+    <script type="module" src="./sendmail.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script 
+        type="text/javascript" 
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("user_9UC9jWoj0TpBl3WeF6jbT");
+        })();
+    </script>
+</head>
+<body>
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fa fa-bars fa-2x"></i>
+            </div>
+            <div>
+                <a href="#" class="nav__logo">William's</a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <div class="nav__close" id="nav-close">
+                    <i class="fa fa-times"></i>
+                </div>
+
+                <ul>
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                    <li class="nav__item"><a href="#works" class="nav__link">Works</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact me</a></li>
+                </ul>
+
+
+            </div>
+
+        </nav>
+    </header>
+    <main class="l-main">
+        <section class="home" id="home">
+            <div class="dome__container bd-grid">
+                <div class="home__data">
+                    <div class="home__img">
+                        <img src="img/portfolio_pic-removebg.png" alt="">
+                    </div>
+                    <h1 class="home__title">Ikechukwu William's</h1>
+                    <span class="home__profession">FullStack python Developer</span>
+
+                    <div class="home__social">
+                        <a href="https://wa.me/2347033475563" class="home__social-link"><i class="fa fa-whatsapp fa-2x"></i></a>
+                        <a href="https://github.com/onealwills/" class="home__social-link"><i class="fa fa-github fa-2x"></i></a>
+                        <a href="https://web.facebook.com/" class="home__social-link"><i class="fa fa-facebook fa-2x"></i></a>
+                        <a href="https://www.instagram.com/" class="home__social-link"><i class="fa fa-instagram fa-2x"></i></a>
+                        <a href="https://twitter.com/Onealwilliams1" class="home__social-link"><i class="fa fa-twitter fa-2x"></i></a>
+                    </div>
+
+                    <a download="Williams_Resume" href="./img/williams resume.doc" class="button home__button">Download Resume</a>
+                </div>
+
+            </div>
+        </section>
+        <section class="about section" id="about">
+            <span class="section-subtitle">My Intro</span>
+            <h2 class="section-title">About me</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__data">
+                    <p class="about__description"></p>
+                    <img src="img/portfolio_pic.jpg" alt="" class="about__img">
+                </div>
+
+                <div>
+                    <div class="about__information">
+                    <h3 class="about__information-title">Information</h3>
+
+                    <div class="about__information-data">
+                        <i class="fa fa-user  about__information-icon"></i>
+                        <span>Ikechukwu William's</span>
+                    </div>
+
+                    <div class="about__information-data">
+                        <i class="fa fa-phone  about__information-icon"></i>
+                        <span><a href="tel:+234-703-347-556-3">+234-703-347-556-3</a></span>
+                    </div>
+
+                    <div class="about__information-data">
+                        <i class="fa fa-phone  about__information-icon"></i>
+                        <span><a href="tel:+234-808-837-173-1">+234-808-837-173-1</a></span>
+                    </div>
+
+                    <div class="about__information-data">
+                        <i class="fa fa-envelope  about__information-icon"></i>
+                        <span>oneal.wills@gmail.com</span>
+                    </div>
+                </div>
+
+                <div class="about__information">
+                    <h3 class="about__information-title">Experience and support</h3>
+
+
+                    <div class="about__information-data">
+                        <i class="fa fa-envelope  about__information-icon"></i>
+                        <div>
+                            <span class="about__information-subtitle">5 Years job</span>
+                            <span class="about__information-subtitle-small">Experience</span>
+
+                        </div>
+                    </div>
+
+                    <div class="about__information-data">
+                        <i class="fa fa-briefcase  about__information-icon"></i>
+                        <div>
+                            <span class="about__information-subtitle">5 Projects</span>
+                            <span class="about__information-subtitle-small">completed</span>
+                        </div>
+                    </div>
+
+                    <div class="about__information-data">
+                        <i class="fa fa-headphones  about__information-icon"></i>
+                        <div>
+                            <span class="about__information-subtitle">support</span>
+                            <span class="about__information-subtitle-small">online 24/7</span>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </section>
+
+        <section class="skills section" id="skills">
+            <span class="section-subtitle">Why Choose Me</span>
+            <h2 class="section-title">My Skills</h2>
+
+            <div class="skills_container bd-grid">
+                <div class="skills__content">
+                    <h3 class="skills__subtitle">Frontend</h3>
+
+                    <div class="skills__data">
+                        <span class="skills__name">Html/css</span>
+                        <span class="skills__name">70%</span>
+                        <span class="skills__bar skills_html"></span>
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">javascript</span>
+                        <span class="skills__name">60%</span>
+                        <span class="skills__bar skills_javascript"></span>
+                    </div>
+                </div>
+
+                <div class="skills__content">
+                    <h3 class="skills__subtitle">Backend</h3>
+
+                    <div class="skills__data">
+                        <span class="skills__name">python/Django</span>
+                        <span class="skills__name">80%</span>
+                        <span class="skills__bar skills_python"></span>
+                    </div>
+                </div>
+            </div>           
+        </section>
+
+        <section class="education section">
+            <span class="section-subtitle">Qualification</span>
+            <h2 class="section-title">My Education</h2>
+
+            <div class="education__container bd-grid">
+                <div class="education__content">
+                    <div>
+                        <h3 class="education__year">2004-2009</h3>
+                        <span class="education__university">University of Studies</span>
+                    </div>
+
+                    <div class="education__time">
+                        <span class="education__rounder"></span>
+                        <span class="education__line"></span>
+                    </div>
+
+                    <div>
+                        <h3 class="education__race">Diploma Development</h3>
+                        <span class="education__specialty">Frontend</span>
+                    </div>
+                </div>
+
+                <div class="education__content">
+                    <div>
+                        <h3 class="education__year">2004-2009</h3>
+                        <span class="education__university">University of Studies</span>
+                    </div>
+
+                    <div class="education__time">
+                        <span class="education__rounder"></span>
+                        <span class="education__line"></span>
+                    </div>
+
+                    <div>
+                        <h3 class="education__race">Diploma Development</h3>
+                        <span class="education__specialty">Frontend</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="services section">
+            <span class="section-subtitle"></span>
+            <h2 class="section-title"></h2>
+
+            <div class="services__container bd-grid">
+                <div class="services__content">
+                    <i class="fa fa-code services__icon"></i>
+                    <h3 class="service__title">Web Development</h3>
+                    <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis distinctio debitis esse mollitia fugit iusto quia adipisci nesciunt tenetur minus! Vero doloremque natus quos cupiditate minima possimus nisi debitis impedit.</p>
+                </div>
+
+                <div class="services__content">
+                    <i class="fa fa-pencil-square-o services__icon"></i>
+                    <h3 class="service__title">Graphics Design</h3>
+                    <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis distinctio debitis esse mollitia fugit iusto quia adipisci nesciunt tenetur minus! Vero doloremque natus quos cupiditate minima possimus nisi debitis impedit.</p>
+                </div>
+
+                <div class="services__content">
+                    <i class="fa fa-paint-brush services__icon"></i>
+                    <h3 class="service__title">UI/UX</h3>
+                    <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis distinctio debitis esse mollitia fugit iusto quia adipisci nesciunt tenetur minus! Vero doloremque natus quos cupiditate minima possimus nisi debitis impedit.</p>
+                </div>
+
+                <div class="services__content">
+                    <i class="fa fa-server services__icon" ></i>
+                    <h3 class="service__title">Backend Development</h3>
+                    <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis distinctio debitis esse mollitia fugit iusto quia adipisci nesciunt tenetur minus! Vero doloremque natus quos cupiditate minima possimus nisi debitis impedit.</p>
+                </div>
+
+                <div class="services__content">
+                    <i class="fa fa-mobile services__icon"></i>
+                    <h3 class="service__title">Mobile interface</h3>
+                    <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis distinctio debitis esse mollitia fugit iusto quia adipisci nesciunt tenetur minus! Vero doloremque natus quos cupiditate minima possimus nisi debitis impedit.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="project section">
+            <div class="project__container bd-grid">
+                <div class="project__data">
+                    <h2 class="section-title project__title">Do you have a project in mind ?</h2>
+                    <p class="project__description">If you have a project in mind</p>
+                    <a href="#contact" class="button button__light">Contact Me</a>
+                </div>
+
+                <img src="img/portfolio_pic-removebg.png" alt="" class="project__img">
+
+            </div>
+
+        </section>
+
+        <section class="works section" id="works">
+            <span class="section-subtitle">My Portfolio</span>
+            <h2 class="section-title">Recent Works</h2>
+
+            <div class="works__container bd-grid">
+                <div class="works__img">
+                    <img src="img/work1.jpg" alt="">
+
+                    <div class="works__data">
+                        <a href="" class="works__link"><i class="fa fa-link"></i></a>
+                        <span class="works__title">Work 1</span>
+                    </div>
+                </div>
+
+                <div class="works__img">
+                    <img src="img/work2.jpg" alt="">
+
+                    <div class="works__data">
+                        <a href="" class="works__link"><i class="fa fa-link"></i></a>
+                        <span class="works__title">Work 2</span>
+                    </div>
+                </div>
+
+                <div class="works__img">
+                    <img src="img/work3.jpg" alt="">
+
+                    <div class="works__data">
+                        <a href="" class="works__link"><i class="fa fa-link"></i></a>
+                        <span class="works__title">Work 3</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact section" id="contact">
+            <span class="section-subtitle">Contact Me</span>
+            <h2 class="section-title">Get in Touch</h2>
+
+            <div class="conatct__contaner bd-grid">
+                <form action="" class="contact__form">
+                    <div class="contact__inputs">
+                        <input type="text" id="Name" placeholder="Name" class="contact__input">
+                        <input type="mail" id="Email" placeholder="Email" class="contact__input">
+                    </div>
+
+                    <input type="text" id="Project" placeholder="Project" class="contact__input">
+                    <textarea name="" id="Message" cols="0" rows="10" placeholder="Message" class="contact__input"></textarea>
+
+                    <input type="submit" onclick="sendEmail()" value="send Message" class="button contact__button">
+                </form>
+
+                <div>
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">Call me</h3>
+                        <span class="contact__text">+234-703-347-556-3</span>
+                        <span class="contact__text">+234-808-837-173-1</span>
+                    </div>
+
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">E-mail</h3>
+                        <span class="contact__text">oneal.wills@gmail.com</span>
+                        <span class="contact__text">oneal.wills1@gmail.com</span>
+                    </div>
+
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">Location</h3>
+                        <span class="contact__text">#4 graceland av. bucknor estate, Isolo</span>
+                        <span class="contact__text">Lagos-Nigeria</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer section">
+            <div class="footer__container bd-grid">
+                <h1 class="footer__title">William's</h1>
+                <p class="footer__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse asperiores qui exercitationem nemo, enim fuga distinctio quos excepturi dicta laboriosam reiciendis eveniet quas alias iusto reprehenderit! Repellat numquam obcaecati aspernatur.</p>
+
+                <div class="footer__social">
+                    <a href="#" class="footer__link"><i class="fa fa-twitter fa-2x"></i></a>
+                    <a href="#" class="footer__link"><i class="fa fa-instagram fa-2x"></i></a>
+                    <a href="https://wa.me/2347033475563" class="footer__link"><i class="fa fa-whatsapp fa-2x"></i></a>
+                    <a href="#" class="footer__link"><i class="fa fa-facebook fa-2x"></i></a>
+                    <a href="#" class="footer__link"><i class="fa fa-github fa-2x"></i></a>
+
+                </div>
+
+                <p class="footer__copy">All right reserved by Ikechukwu william's - 2021</p>
+
+            </div>
+
+        </footer>
+
+
+    </main>
+    <script src="sendmail.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
